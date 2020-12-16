@@ -17,6 +17,12 @@ class App extends Component {
       </Greet>
       {/* <Welcome/>
       <Hello/> */}
+      <Welcome name='Bruce' heroname='Spiderman' />
+      <Welcome name='Diana' heroname='Wonder woman' />
+      <Welcome name='Sahbaj' heroname='Ali'>
+        <button>Click here</button>
+      </Welcome>
+
     </div>
   )
 }
