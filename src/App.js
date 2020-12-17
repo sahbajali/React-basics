@@ -5,12 +5,14 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
+import Counter from './components/Counter'
 import { render } from '@testing-library/react';
 import React, {Component} from 'react'
 class App extends Component {
   render(){
   return (
     <div className="App">
+      <Counter/>
       {/* <Greet name='Bruce' heroname='Spiderman'/>
       <Greet name='Diana' heroname='Wonder woman'/>
       <Greet name='Sahbaj' heroname='Ali'>
@@ -22,8 +24,8 @@ class App extends Component {
       <Welcome name='Diana' heroname='Wonder woman' />
       <Welcome name='Sahbaj' heroname='Ali'>
         <button>Click here</button>
-      </Welcome> */}
-      <Message />
+      </Welcome>
+      <Message /> */}
     </div>
   )
 }
