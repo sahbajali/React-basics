@@ -25,7 +25,7 @@ class Counter extends Component {
         ()=>console.log('Callback value: '+this.state.count)
         )
         console.log('Asynchronous value: '+this.state.count)
-        
+        //when function is not passed as parameter to setState() then all the calls are updated once for better performance
     }
     incrementFive(){
         this.increment()
